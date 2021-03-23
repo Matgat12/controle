@@ -24,18 +24,42 @@ print(s)
 s2 = (sum(x[2] for x in lm1)/len(lm1))
 print(s2)
 
+
 ###fonction moyenne_tuples###
 
 def moyenne_tuples():
-  if x[0]='eleve1' and x[1]='math':
-   s2 = (sum(x[2] for x in lm1)/len(lm1))
-   print(s2)
-    elif x[0]='eleve1' and x[1]='eco':
-    s3 = (sum(x[2] for x in lm2)/len(lm2))
-    print(s3)
-    elif x[0]='eleve1' and x[1]='physique':
-    s4 = (sum(x[2] for x in lm3)/len(lm3))
-    print(s4)
-  else :
-    s5 = (sum(x[2] for x in lm4)/len(lm4))
-print(s5)
+if x[0]='eleve1' and x[1]='math':
+ s2 = (sum(x[2] for x in lm1)/len(lm1))
+ print(s2)
+ elif x[0]='eleve1' and x[1]='eco':
+ s3 = (sum(x[2] for x in lm2)/len(lm2))
+ print(s3)
+ elif x[0]='eleve1' and x[1]='physique':
+  s4 = (sum(x[2] for x in lm3)/len(lm3))
+  print(s4)
+else :
+   s5 = (sum(x[2] for x in lm4)/len(lm4))
+   print(s5)
+
+def moyenne_tuples(notes, matière, élèves):
+  
+  
+  
+  
+def __init__(self, eleve, matiere, valeur): #La méthode pour créer un objet
+    self.eleve = eleve
+    self.matiere = matiere
+    self.valeur = valeur
+
+def afficher(self):
+    print('eleve', self.eleve, 'matiere', self.matiere, 'note', self.valeur)
+
+
+onote = Note('eleve1', 'maths', 13)
+print(onote.eleve)
+print(onote.matiere)
+print(onote.valeur)
+Note.afficher(onote)
+
+  def __str__(self):
+    return #ce que vous voulez afficher"
