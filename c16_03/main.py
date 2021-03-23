@@ -23,7 +23,16 @@ print(s)
 
 s2 = (sum(x[2] for x in lm1)/len(lm1))
 print(s2)
+from statistics import mean 
+  
 
+print(" Afficher Notes: " + str(notes)) 
+ 
+K2 = 2
+  
+res = sum(val[K2] for val in notes) / len(notes) 
+    
+print("La moyenne totale est : " + str(res))
 
 ###fonction moyenne_tuples###
 
